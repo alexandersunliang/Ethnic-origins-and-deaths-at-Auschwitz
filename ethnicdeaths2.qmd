@@ -4,17 +4,17 @@ format: pdf
 editor: visual
 author: 
   - "Alexander Sun"
-thanks: "https://github.com/alexandersunliang/Alberta_mortality_rate"
+thanks: "https://posit.cloud/content/7916437"
 date: today
 date-format: long
 bibliography: references.bib
 ---
 
-The Holocaust stands as one of the darkest chapters in human history. The Auschwitz concentration camp, notorious for its brutality, emerged as a symbol of this genocide, where countless lives were extinguished in the most horrific conditions imaginable.
+The Holocaust stands as one of the darkest chapters in human history. The Auschwitz concentration camp, notorious for its brutality, emerged as a symbol of this genocide, where countless lives were extinguished in the most horrific conditions imaginable [@brit].
 
-This essay delves into a project that aims to illuminate the ethnic origins and number of Holocaust victims killed at Auschwitz. Using data from auschwitz.org, we developed interactive visualizations to offer a clearer understanding of the scale and diversity of the deaths at this camp. The dataset includes information on various groups such as Jews, Poles, Roma/Sinti, Soviet POWs, and others, detailing both the number of deportees and fatalities. We draw inspiration from Jamelle Bouie's article on the slave trade and the growing accessibility of data surrounding it.
+This essay delves into a project that aims to illuminate the ethnic origins and number of Holocaust victims killed at Auschwitz. Using data from auschwitz.org, we developed interactive visualizations to offer a clearer understanding of the scale and diversity of the deaths at this camp. The dataset includes information on various groups such as Jews, Poles, Roma/Sinti, Soviet POWs, and others, detailing both the number of deportees and fatalities [@stats]. We draw inspiration from Jamelle Bouie's article on the slave trade and the growing accessibility of data surrounding it [@nytimes].
 
-Bouie's article delves into the SlaveVoyages database, a comprehensive tool that documents the trans-Atlantic slave trade. By combining detailed research with innovative technology, this database offers insights and visualizations into the lives of millions of enslaved Africans. Bouie highlights how SlaveVoyages not only quantifies the scale of human trafficking across the Atlantic but also humanizes the individuals involved, providing data on their origins, experiences, and the voyages they endured.
+Bouie's article delves into the SlaveVoyages database, a comprehensive tool that documents the trans-Atlantic slave trade. By combining detailed research with innovative technology, this database offers insights and visualizations into the lives of millions of enslaved Africans. Bouie highlights how SlaveVoyages not only quantifies the scale of human trafficking across the Atlantic but also humanizes the individuals involved, providing data on their origins, experiences, and the voyages they endured [@slave].
 
 Similar to certain aspects of SlaveVoyages, we created an interactive graph and table using Shiny, a tool for building interactive web applications. This allows users to select specific groups and visualise the number of deaths. This method of presenting data draws inspiration from the SlaveVoyages database mentioned in Bouie's article. Just as SlaveVoyages provides a detailed, interactive look at the trans-Atlantic slave trade, our project aims to shed light on the scale of the Holocaust's impact across different nationalities through user-driven exploration.
 
@@ -24,8 +24,12 @@ Bouie emphasizes the moral duty of historians and data analysts to handle inform
 
 This project seeks to enhance Holocaust education and memory by making the data more accessible and engaging to the public. Bouie’s discussion on the transformative power of the SlaveVoyages database for understanding and teaching about the slave trade serves as an inspiration. Similarly, our interactive visualizations invite users to actively engage with the history of the Holocaust, fostering a deeper connection and understanding of the past. By allowing users to explore the data dynamically, we hope to encourage reflection on the Holocaust's impacts and the importance of remembering the individuals behind the statistics.
 
-In line with the themes explored by Bouie, our project faced its own set of challenges and limitations. One significant limitation is what the data can and cannot tell us. While the numbers provide an overview of the losses, they cannot fully convey the experiences, suffering, and resilience of the victims. A challenge we encountered, as Bouie discusses, was ensuring that our project did not inadvertently reduce the victims to mere numbers. Further adjustments to the application should include descriptions and educational articles on the suffering that occured in Auschwitz.
+In line with the themes explored by Bouie, our project faced its own set of challenges and limitations. One significant limitation is what the data can and cannot tell us. While the numbers provide an overview of the losses, they cannot fully convey the experiences, suffering, and resilience of the victims. A challenge we encountered, as Bouie discusses, was ensuring that our project did not inadvertently reduce the victims to mere numbers. Further adjustments to the application should include descriptions and educational articles on the suffering that occured in Auschwitz. The SlaveVoyages database provides an amazing example of supplementing their data with information on the Trans-Atlantic slave trade. Their website includes resources for further research, image galleries, and essays on the slave trade that instills a story within each section of the database. The current bare-bone structure of our Shiny webapp does a very poor job of portraying the victims of Auschwitz as more than numbers.
 
 Our project, inspired by the insights of Jamelle Bouie's exploration of the SlaveVoyages database, sought to navigate the complex issue of representing the Holocaust's mark on humanity through Auschwitz's victims. We created interactive visualizations that allowed users to engage directly with the data. We aimed to illuminate the individual and collective stories of those who suffered, ensuring their memories are honored and preserved.
 
 As we reflect on the impact of our project, it becomes clear that interactive data visualization has the potential to significantly contribute to the way we understand, teach, and remember history. It can transform abstract numbers into tangible stories of loss, resilience, and humanity. Our hope is that this project not only advances Holocaust education but also inspires continued exploration into the ways we can use technology to keep the memory of historical atrocities alive for future generations.
+
+\newpage
+
+# References
