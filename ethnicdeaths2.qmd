@@ -4,7 +4,7 @@ format: pdf
 editor: visual
 author: 
   - "Alexander Sun"
-thanks: "https://posit.cloud/content/7916437"
+thanks: "https://posit.cloud/content/7916437, https://github.com/alexandersunliang/Ethnic-origins-and-deaths-at-Auschwitz.git"
 date: today
 date-format: long
 bibliography: references.bib
